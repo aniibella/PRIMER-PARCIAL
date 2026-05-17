@@ -9,8 +9,8 @@ body{
     background-repeat: repeat;
 }
 #contenedor{
+    width: 90%;
     max-width: 960px;
-    width: 80%;
     margin: auto;
     background-color: hsla(187, 100%, 90%, 0.8);
     padding: 20px;
