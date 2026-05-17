@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'barlow';
     background-image: url(fotos/fondo.png);
     background-repeat: repeat;
 }
@@ -29,7 +29,7 @@ main{
     padding: 2rem;
 }
 h1{
-    font-family: 'bungee';
+    font-family: 'barlow';
     color: hwb(219 0% 68%);
 }
 nav{
