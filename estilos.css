@@ -39,7 +39,7 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 13rem;
+    gap: 7rem;
     padding: 1rem;
 }
 nav li {
@@ -54,17 +54,38 @@ nav a:link{
     color: hwb(0 100% 0% / 0.8);
 }
 nav a:visited{
-    color: hwb(32 0% 0%);
+    color: hwb(231 0% 10%);
 }
 nav a:hover{
-    color: hwb(54 0% 0%);
+    color: hwb(34 0% 0%);
 }
 nav a:active{
     color: hwb(51 0% 14%);
 }
-nav a:active{
-    color: hwb(0 0% 0%);
-}
 h2, h3{
     color: hwb(213 0% 59%);
+}
+blockquote{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: hwb(0 0% 100%);
+    border-left: 7px solid hwb(213 0% 36%);
+    padding-left: 1rem;
+    margin-left: 0;
+}
+img#primera {
+    width: 60%;
+    margin: 1rem auto;
+    display: block;
+}
+img#segunda {
+    width: 60%;
+    margin: 1rem auto;
+    display: block;
+}
+img.tercera {
+    width: 50%;
+    margin: 1rem auto;
+    display: block;
 }
