@@ -92,8 +92,10 @@ p {
     font-size: 1rem;
     text-align: justify;
 }
+section ul{
+    padding-left: 3rem;
+}
 section ul li{
-    padding-left: 2rem;
     color: hwb(239 5% 55%);
     font-size: 1.3rem;
     }
