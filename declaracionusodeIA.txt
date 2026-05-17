@@ -1,0 +1,50 @@
+Declaración de uso de IA
+
+La herramienta de IA que utilicé para revisión y ayuda en corrección de errores fue OpenIA Chat-gpt.
+
+Las etapas en las que lo utilicé fueron:
+
+- Revisión, detección y corrección de errores de sintaxis.
+
+- Ayuda para insertar el video de YouTube mediante iframe.
+
+- Revisión general del código CSS y sugerencias de organización visual.
+
+Errores y mejoras detectadas por la IA
+
+Durante la revisión del código, la IA detectó distintos errores y puntos de mejora.
+
+En mi código html:
+
+La IA señaló:
+
+Un error en la estructura semántica del segundo HTML, donde una sección había quedado fuera de la etiqueta main.
+Problemas en la incrustación del video de YouTube debido al uso incorrecto del enlace.
+Uso excesivo de etiquetas <br> dentro de párrafos largos.
+
+La IA señaló:
+
+Un selector incorrecto en CSS (section h3 ul li) que no coincidía con la estructura real del HTML.
+Recomendaciones sobre el uso de tipografías cargadas desde Google Fonts.
+
+Correcciones implementadas
+
+De las correcciones y sugerencias decidí implementar las siguientes:
+
+Corrección de la estructura del main en el segundo HTML.
+Corrección del enlace del iframe.
+Corrección de selectores CSS.
+
+Correcciones no implementadas
+
+No se implementaron algunas sugerencias menores relacionadas con:
+
+Separar todos los párrafos en múltiples etiquetas <p> en lugar de usar <br>.
+Cambiar completamente la tipografía de los títulos para diferenciar más la jerarquía visual.
+
+Estas decisiones fueron tomadas en base a necesidades que me fueron surgiendo. En las que decidí no implementar fue por un tema de que no me parecían necesarias y además, por ejemplo, en la sugerencia del cambio de fuentes en mis textos no cumplía con la consigna.
+Los demás cambios debí realizarlos ya que eran para el correcto funcionamiento de la página y fueron dudas que yo misma le pregunté debido a problemas en esos sectores. Por ejemplo, tras insertar el video con la etiqueta <iframe> no lograba detectar el error, la IA me señaló cuál era y lo cambié, más debo señalar que aún así no se ve como yo quería, pero según ésta ya estaba correcto.
+
+Ventajas y desventajas de trabajar con IA 
+
+En mi experiencia trabajando este parcial junto con la IA de chatgpt puedo señalar que para temas concretos en la estructura de, ya sea html o css, es de gran ayuda ya que detecta fácilmente errores comunes que pueden pasar desapercibido en la estructura como me pasó en mi archivo css que no lograba entender cuál era la razón por la cual no se aplicaban los cambios a mi lista <ul>, y al preguntarle a la IA me señaló que en mi cascada estaba poniendo ul y li como si estuvieran dentro de h3. Por lo que me fue de gran ayuda. Sin embargo, tiene un par de desventajas como que algunas respuestas requieren revisión manual y aplicación práctica especialmente en problemas relacionados con rutas y videos incrustados. Un ejemplo puede ser que en un momento la IA me decía que mi fuente de google estaba mal y tras verificarlo manualmente no encontré tal error.
