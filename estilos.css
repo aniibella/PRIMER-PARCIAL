@@ -42,9 +42,6 @@ nav ul{
     gap: 7rem;
     padding: 1rem;
 }
-nav li {
-	display: inline-block;
-}
 nav a {
     text-decoration: none;
     color: hwb(214 0% 69%);
@@ -90,8 +87,9 @@ img.tercera {
     display: block;
 }
 p {
-    line-height: 1.6;
+    line-height: 1.5;
     color: hwb(0 0% 100%);
     font-size: 1rem;
     text-align: justify;
 }
+
