@@ -50,3 +50,21 @@ nav a {
     color: hwb(214 0% 69%);
     font-weight: bold;
 }
+nav a:link{
+    color: hwb(0 100% 0% / 0.8);
+}
+nav a:visited{
+    color: hwb(32 0% 0%);
+}
+nav a:hover{
+    color: hwb(54 0% 0%);
+}
+nav a:active{
+    color: hwb(51 0% 14%);
+}
+nav a:active{
+    color: hwb(0 0% 0%);
+}
+h2, h3{
+    color: hwb(213 0% 59%);
+}
