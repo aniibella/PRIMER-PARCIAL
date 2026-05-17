@@ -9,9 +9,39 @@ body{
     background-repeat: repeat;
 }
 #contenedor{
-    width: 98%;
+    width: 90%;
     max-width: 1500px;
     margin: auto;
     background-color: hsla(187, 100%, 90%, 0.8);
-    padding: 50px;
+    padding: 3rem;
+}
+header{
+    text-align: center;
+    padding: 2rem;
+    background-color: hwb(192 79% 0% / 0.8);
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: hwb(189 51% 17% / 0.8);
+}
+main{
+    padding: 2rem;
+}
+h1{
+    font-family: 'bungee';
+    color: hwb(219 0% 68%);
+}
+nav{
+    background-color: hwb(189 51% 17% / 0.8);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 13rem;
+    padding: 1rem;
+}
+nav li {
+	display: inline-block;
 }
