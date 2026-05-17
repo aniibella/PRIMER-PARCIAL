@@ -89,3 +89,9 @@ img.tercera {
     margin: 1rem auto;
     display: block;
 }
+p {
+    line-height: 1.6;
+    color: hwb(0 0% 100%);
+    font-size: 1rem;
+    text-align: justify;
+}
